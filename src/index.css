@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    @apply bg-gray-600;
+    font-family: 'Ubuntu';
+    letter-spacing: .025rem;
+    color: white;
+}
