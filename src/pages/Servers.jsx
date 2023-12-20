@@ -70,9 +70,9 @@ export default function Servers() {
               <span className='font-bold text-4xl border-b-2 border-slate-900 w-full pb-8'>Servers</span>
 
 
-              <div className='flex flex-col gap-8 lg:flex-row'>
+              <div className='flex flex-col gap-8 lg:flex-row items-center'>
                 {games.map(game => (
-                  <div className='bg-slate-500 rounded-lg shadow-md w-96 h-40 flex flex-col justify-center gap-2' key={game.id}>
+                  <div className='bg-slate-500 rounded-lg shadow-md w-96 h-40 flex flex-col justify-center gap-2 hover:w-[25rem] hover:h-[11rem] ease-in-out duration-150' key={game.id}>
                     <h1>{game.gametitle}</h1>
                     <h2>{game.name}</h2>
                     {game.status != 'Offline' ? (
