@@ -8,7 +8,7 @@ export default function Servers() {
       
         useEffect(() => {
           gameNames.forEach(gameName => {
-            axios.get(`https://eager-handbag-fish.cyclic.app/${gameName}`)
+            axios.get(`https://api.superslinkyserver.com/${gameName}`)
               .then(response => {
 
                 
