@@ -65,8 +65,8 @@ export default function Servers() {
         return (
           <>
             <Header />
-            <div className='flex flex-col items-center text-center gap-8 pt-8'>
-              <span className='font-bold text-4xl border-b-2 border-slate-900 w-full pb-8'>Servers</span>
+            <div className='flex flex-col items-center text-center gap-8 pt-32'>
+              <span className='font-bold text-3xl border-b-[1px] w-96 md:w-[34rem] lg:w-[42rem] '>Servers</span>
 
 
               <div className='flex flex-col gap-8 lg:flex-row items-center'>

@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 export default function Header() {
   return (
-    <div className='flex bg-teal-800 text-white text-lg font-bold h-20 shadow-md'>
+    <div className='fixed z-50 flex bg-teal-800 text-white text-lg font-bold h-20 shadow-md w-full'>
         <Link to='/' className='w-20 flex flex-col justify-center hover:w-[5.5rem] ease-in-out duration-200' ><img src={SSLogo}></img></Link>
         <div className="flex pl-6 w-full justify-between">
             <div className="self-center flex gap-8">
